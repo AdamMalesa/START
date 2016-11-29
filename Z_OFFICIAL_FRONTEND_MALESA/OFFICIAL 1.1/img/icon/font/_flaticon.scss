@@ -1,0 +1,199 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:34
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-american-football:before { content: "\f100"; }
+.flaticon-american-football-player:before { content: "\f101"; }
+.flaticon-archer:before { content: "\f102"; }
+.flaticon-athlete:before { content: "\f103"; }
+.flaticon-badminton:before { content: "\f104"; }
+.flaticon-baseball:before { content: "\f105"; }
+.flaticon-baseball-1:before { content: "\f106"; }
+.flaticon-basketball:before { content: "\f107"; }
+.flaticon-basketball-1:before { content: "\f108"; }
+.flaticon-bicycle:before { content: "\f109"; }
+.flaticon-biker:before { content: "\f10a"; }
+.flaticon-bodyboard:before { content: "\f10b"; }
+.flaticon-bodyboard-1:before { content: "\f10c"; }
+.flaticon-bowling:before { content: "\f10d"; }
+.flaticon-bowling-pins:before { content: "\f10e"; }
+.flaticon-boxer:before { content: "\f10f"; }
+.flaticon-boxing:before { content: "\f110"; }
+.flaticon-buck:before { content: "\f111"; }
+.flaticon-bullseye:before { content: "\f112"; }
+.flaticon-canoe:before { content: "\f113"; }
+.flaticon-canoe-1:before { content: "\f114"; }
+.flaticon-cricket:before { content: "\f115"; }
+.flaticon-cricket-bat:before { content: "\f116"; }
+.flaticon-curling:before { content: "\f117"; }
+.flaticon-curling-1:before { content: "\f118"; }
+.flaticon-diving:before { content: "\f119"; }
+.flaticon-diving-1:before { content: "\f11a"; }
+.flaticon-diving-platform:before { content: "\f11b"; }
+.flaticon-fencing:before { content: "\f11c"; }
+.flaticon-field-hockey:before { content: "\f11d"; }
+.flaticon-field-hockey-1:before { content: "\f11e"; }
+.flaticon-fisher:before { content: "\f11f"; }
+.flaticon-fishing:before { content: "\f120"; }
+.flaticon-flippers:before { content: "\f121"; }
+.flaticon-football:before { content: "\f122"; }
+.flaticon-football-1:before { content: "\f123"; }
+.flaticon-frisbee:before { content: "\f124"; }
+.flaticon-frisbee-1:before { content: "\f125"; }
+.flaticon-golf:before { content: "\f126"; }
+.flaticon-golf-1:before { content: "\f127"; }
+.flaticon-gymnast:before { content: "\f128"; }
+.flaticon-gymnast-1:before { content: "\f129"; }
+.flaticon-hurdle:before { content: "\f12a"; }
+.flaticon-ice-hockey:before { content: "\f12b"; }
+.flaticon-ice-hockey-1:before { content: "\f12c"; }
+.flaticon-ice-skating:before { content: "\f12d"; }
+.flaticon-ice-skating-1:before { content: "\f12e"; }
+.flaticon-ice-skating-2:before { content: "\f12f"; }
+.flaticon-ice-skating-3:before { content: "\f130"; }
+.flaticon-lacrosse:before { content: "\f131"; }
+.flaticon-lacrosse-1:before { content: "\f132"; }
+.flaticon-ping-pong:before { content: "\f133"; }
+.flaticon-ping-pong-1:before { content: "\f134"; }
+.flaticon-rings:before { content: "\f135"; }
+.flaticon-rugby:before { content: "\f136"; }
+.flaticon-rugby-1:before { content: "\f137"; }
+.flaticon-running:before { content: "\f138"; }
+.flaticon-shuttlecock:before { content: "\f139"; }
+.flaticon-ski:before { content: "\f13a"; }
+.flaticon-ski-1:before { content: "\f13b"; }
+.flaticon-snorkel:before { content: "\f13c"; }
+.flaticon-snorkel-1:before { content: "\f13d"; }
+.flaticon-snowboard:before { content: "\f13e"; }
+.flaticon-snowboard-1:before { content: "\f13f"; }
+.flaticon-sprinter:before { content: "\f140"; }
+.flaticon-standup-paddleboarding:before { content: "\f141"; }
+.flaticon-standup-paddleboarding-1:before { content: "\f142"; }
+.flaticon-surf:before { content: "\f143"; }
+.flaticon-surf-1:before { content: "\f144"; }
+.flaticon-swimming:before { content: "\f145"; }
+.flaticon-swimming-1:before { content: "\f146"; }
+.flaticon-tennis:before { content: "\f147"; }
+.flaticon-tennis-1:before { content: "\f148"; }
+.flaticon-volleyball:before { content: "\f149"; }
+.flaticon-volleyball-1:before { content: "\f14a"; }
+.flaticon-waterpolo:before { content: "\f14b"; }
+.flaticon-waterpolo-1:before { content: "\f14c"; }
+.flaticon-weapons:before { content: "\f14d"; }
+.flaticon-windsurf:before { content: "\f14e"; }
+.flaticon-windsurf-1:before { content: "\f14f"; }
+    
+    $font-Flaticon-american-football: "\f100";
+    $font-Flaticon-american-football-player: "\f101";
+    $font-Flaticon-archer: "\f102";
+    $font-Flaticon-athlete: "\f103";
+    $font-Flaticon-badminton: "\f104";
+    $font-Flaticon-baseball: "\f105";
+    $font-Flaticon-baseball-1: "\f106";
+    $font-Flaticon-basketball: "\f107";
+    $font-Flaticon-basketball-1: "\f108";
+    $font-Flaticon-bicycle: "\f109";
+    $font-Flaticon-biker: "\f10a";
+    $font-Flaticon-bodyboard: "\f10b";
+    $font-Flaticon-bodyboard-1: "\f10c";
+    $font-Flaticon-bowling: "\f10d";
+    $font-Flaticon-bowling-pins: "\f10e";
+    $font-Flaticon-boxer: "\f10f";
+    $font-Flaticon-boxing: "\f110";
+    $font-Flaticon-buck: "\f111";
+    $font-Flaticon-bullseye: "\f112";
+    $font-Flaticon-canoe: "\f113";
+    $font-Flaticon-canoe-1: "\f114";
+    $font-Flaticon-cricket: "\f115";
+    $font-Flaticon-cricket-bat: "\f116";
+    $font-Flaticon-curling: "\f117";
+    $font-Flaticon-curling-1: "\f118";
+    $font-Flaticon-diving: "\f119";
+    $font-Flaticon-diving-1: "\f11a";
+    $font-Flaticon-diving-platform: "\f11b";
+    $font-Flaticon-fencing: "\f11c";
+    $font-Flaticon-field-hockey: "\f11d";
+    $font-Flaticon-field-hockey-1: "\f11e";
+    $font-Flaticon-fisher: "\f11f";
+    $font-Flaticon-fishing: "\f120";
+    $font-Flaticon-flippers: "\f121";
+    $font-Flaticon-football: "\f122";
+    $font-Flaticon-football-1: "\f123";
+    $font-Flaticon-frisbee: "\f124";
+    $font-Flaticon-frisbee-1: "\f125";
+    $font-Flaticon-golf: "\f126";
+    $font-Flaticon-golf-1: "\f127";
+    $font-Flaticon-gymnast: "\f128";
+    $font-Flaticon-gymnast-1: "\f129";
+    $font-Flaticon-hurdle: "\f12a";
+    $font-Flaticon-ice-hockey: "\f12b";
+    $font-Flaticon-ice-hockey-1: "\f12c";
+    $font-Flaticon-ice-skating: "\f12d";
+    $font-Flaticon-ice-skating-1: "\f12e";
+    $font-Flaticon-ice-skating-2: "\f12f";
+    $font-Flaticon-ice-skating-3: "\f130";
+    $font-Flaticon-lacrosse: "\f131";
+    $font-Flaticon-lacrosse-1: "\f132";
+    $font-Flaticon-ping-pong: "\f133";
+    $font-Flaticon-ping-pong-1: "\f134";
+    $font-Flaticon-rings: "\f135";
+    $font-Flaticon-rugby: "\f136";
+    $font-Flaticon-rugby-1: "\f137";
+    $font-Flaticon-running: "\f138";
+    $font-Flaticon-shuttlecock: "\f139";
+    $font-Flaticon-ski: "\f13a";
+    $font-Flaticon-ski-1: "\f13b";
+    $font-Flaticon-snorkel: "\f13c";
+    $font-Flaticon-snorkel-1: "\f13d";
+    $font-Flaticon-snowboard: "\f13e";
+    $font-Flaticon-snowboard-1: "\f13f";
+    $font-Flaticon-sprinter: "\f140";
+    $font-Flaticon-standup-paddleboarding: "\f141";
+    $font-Flaticon-standup-paddleboarding-1: "\f142";
+    $font-Flaticon-surf: "\f143";
+    $font-Flaticon-surf-1: "\f144";
+    $font-Flaticon-swimming: "\f145";
+    $font-Flaticon-swimming-1: "\f146";
+    $font-Flaticon-tennis: "\f147";
+    $font-Flaticon-tennis-1: "\f148";
+    $font-Flaticon-volleyball: "\f149";
+    $font-Flaticon-volleyball-1: "\f14a";
+    $font-Flaticon-waterpolo: "\f14b";
+    $font-Flaticon-waterpolo-1: "\f14c";
+    $font-Flaticon-weapons: "\f14d";
+    $font-Flaticon-windsurf: "\f14e";
+    $font-Flaticon-windsurf-1: "\f14f";

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Graj z nami NaHali.pl</title>
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--Icon - Dyscypliny-->
+    <link href="img/icon/font/flaticon.css" rel="stylesheet" type="text/css">
+    <!-- Font Lobster - Naglowki -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!--DataPicker- Styl_Obcy-->
+    <link href="css/moje/datepicker3.css" rel="stylesheet prefetch">
+    <!-- Custom styles-->
+    <link href="css/moje/style.css" rel="stylesheet">
+        <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+  <body>
+    <!-- Start project!-->
+
+    <!--Navigation-->
+    <header>
+    
+    <!--User Place-->
+    
+        <div class="menutop">
+             <div class="row">
+                    
+                    <div class="logo_nahali col-lg-3 col-md-3 col-sm-5 col-xs-8">
+                        <a href="#"><img src="img/logo_main.png" class="img-responsive" alt="NaHali"></a>
+                    </div>
+                    <div class="button-collapse col-lg-1 col-md-1 col-sm-1 col-xs-4">
+                        <!-- <a href="#" class="button-collapse hidden-xs"><i class="fa fa-bars fa-3x"></i></a> -->
+                        <a href="#" class="mobile_button-collapse visible-xs"><i class="fa fa-bars fa-3x"></i></a>
+                    </div>
+                    <div class="botton-profile col-lg-8 col-md-8 col-sm-6 hidden-xs">
+                        <a  href="#" class=" rejestracja action-button shadow animate shadow-button "> Rejestracja</a>
+                        <a  href="#" class="zaloguj action-button shadow animate shadow-button">Zaloguj</a>
+                    </div>
+             </div>
+        </div>
+    <!--/User Place-->
+
+    <!--Navbar-->
+
+        <!-- <nav class="navbar_menu hidden-xs ">
+          <ul> -->
+            <!-- <li class="home"><a href="#"><i class="fa fa-home"></i></a></li>-->        
+            <!-- <li><a href="#">O Nas</a></li>
+            <li><a href="#">Gdzie gramy?</a></li>
+            <li><a href="#">Dyscypliny</a></li>
+            <li><a href="#">Cennik</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav> -->
+
+        <!--Mobile Navbar-->
+        <nav class="navbar_menu_mobile visible-xs">
+          <ul>
+            <!-- <li class="home"><a href="#"><i class="fa fa-home"></i></a></li>-->        
+            <li><a href="#">Zaloguj</a></li>
+            <li><a href="#">Rejestracja</a></li>
+            <li><a href="#">O Nas</a></li>
+            <li><a href="#">Gdzie gramy?</a></li>
+            <li><a href="#">Dyscypliny</a></li>
+            <li><a href="#">Cennik</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+    <!--Navbar-->
+
+    </header>
+    <!--Navigation-->
+
+    <!--Main layout-->
+    <main>
+
+        <div class="main-wrapper">
+            <div class="container-fluid">
+
+            <!--Main carousel-->
+                <div class="container carousel_container hidden-xs">
+
+                        <div id="carousel-example-generic2" class="carousel slide">
+                        <!-- Wskaźniki w postaci kropek -->
+                              <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
+                              </ol>
+
+                              <!-- Slajdy -->
+                              <div class="carousel-inner">
+                                
+                                    <div class="item active">
+                                      <img src="http://placehold.it/1280x500" alt="">
+                                      <!-- Opis slajdu -->
+                                      <div class="carousel-caption">
+                                        <h1>tytul 1</h1>
+                                        <p>opis 1</p>
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <img src="http://placehold.it/1280x500" alt="">
+                                      <!-- Opis slajdu -->
+                                      <div class="carousel-caption">
+                                        <h1>tytul 2</h1>
+                                        <p>opis 2</p>
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <img src="http://placehold.it/1280x500" alt="">
+                                      <!-- Opis slajdu -->
+                                        <div class="carousel-caption">
+                                            <h1>tytul 3</h1>
+                                            <p>opis 3</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                              <!-- Strzałki do przewijania -->
+                              <a class="left carousel-control" href="#carousel-example-generic2" data-slide="prev">
+                                <span class="icon-prev"></span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel-example-generic2" data-slide="next">
+                                <span class="icon-next"></span>
+                              </a>
+                        </div>    
+                </div>
+            <!--Main carousel-->
+
+                
+            <!--Searcher-->
+                <div class="searcher container">
+            
+                 
+                    <div class="row up-searcher">
+                         <!--First column-->
+                        <div class="col-md-4">
+                            <h1> Wybierz dyscyplinę:</h1>
+
+                            <div id="radios">
+
+                                <label for="football">
+                                    <input type="radio" name="mode" id="football" value="football" checked/>
+                                    <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\football-1.png" height="30" width="30"></span>
+                                </label>
+                                <label for="basketball">
+                                    <input type="radio" name="mode" id="basketball" value="basketball" checked/>
+                                    <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\basketball.png" height="30" width="30"></span>
+                                </label>                                    
+                                <label for="volleyball">
+                                    <input type="radio" name="mode" id="volleyball" value="volleyball" checked/>
+                                    <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\volleyball.png" height="30" width="30"></span>
+                                </label>
+                                <label for="tennis">
+                                    <input type="radio" name="mode" id="tennis" value="tennis" checked/>
+                                    <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\tennis.png" height="30" width="30"></span>
+                                </label>
+                            </div>
+
+                            <div id="radios">
+                                <label for="waterpolo">
+                                    <input type="radio" name="mode" id="waterpolo" value="waterpolo" checked/>
+                                    <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\waterpolo.png" height="30" width="30"></span>
+                                </label>                                
+                                <label for="ice-hockey" class="material-icons">
+                                    <input type="radio" name="mode" id="ice-hockey" value="ice-hockey" checked/>
+                                    <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\ice-hockey-1.png" height="30" width="30"></span>
+                                </label>    
+                                <label for="rugby" class="material-icons">
+                                    <input type="radio" name="mode" id="rugby" value="rugby" checked/>
+                                    <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\american-football-player.png" height="30" width="30"></span>
+                                </label>
+                                <label for="badminton" class="material-icons">
+                                    <input type="radio" name="mode" id="badminton" value="badminton" checked/>
+                                    <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\badminton.png" height="30" width="30"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <!--/First column-->
+                            
+                        <!--Second column-->
+                        <div class="col-md-4">
+                            <h1>Miejscowość:</h1>
+                            <div class="select" >
+                                <select name="slct" id="slct">
+                                  <option>- dowolna -</option>
+                                  <option value="1">Zamość</option>
+                                  <option value="2">Warszawa</option>
+                                  <option value="3">Kielce</option>
+                                </select>
+                            </div>
+
+                            <h1>Obiekt/Ulica:</h1>
+                            <div class="select">
+                                <select name="slct" id="slct">
+                                  <option>- dowolna -</option>
+                                  <option value="1">Orlik</option>
+                                  <option value="2">ZTM ul.Górna 7</option>
+                                  <option value="3">Wiejska 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!--/Second column-->
+
+                        <!--Third column-->
+                        <div class="col-md-4">
+                            <h1> Wydarzenie w dniu:</h1>
+                            
+                            <div class="kal">
+                                <div class="kal_left input-group input-append date" id="weekYear">
+                                        <input type="text" class="form-control" name="date" value="Wybierz dzień" />
+                                        <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
+                                </div>
+
+                                <div class="kal_right input-group input-append date" id="weekYear">
+                                        <input type="text" class="form-control" name="date" value="Wybierz dzień" />
+                                        <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
+                                </div>
+
+                            </div>
+
+
+                            
+                            
+                            <h1>Podaj godzinę:</h1>
+                            
+                            <div class="godz">
+
+                                <div class="godzina_left select">
+                                    <select name="slct" id="slct">
+                                      <option>- Godzina od -</option>
+                                      <option value="1">Orlik</option>
+                                      <option value="2">ZTM ul.Górna 7</option>
+                                      <option value="3">Wiejska 4</option>
+                                    </select>
+                                </div>
+
+                                <div class="godzina_right select">
+                                    <select name="slct" id="slct">
+                                      <option>- Godzina do -</option>
+                                      <option value="1">Orlik</option>
+                                      <option value="2">ZTM ul.Górna 7</option>
+                                      <option value="3">Wiejska 4</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            
+                        </div>
+                        <!--/Third column-->
+                    </div>
+                    
+
+                    <input type="checkbox" name="toggle" id="toggle" />
+
+                    <div class="row down-searcher">
+                        <!--First column-->
+                        <div class="col-md-4">         
+                        </div>
+                        <!--/First column-->
+                                
+                        <!--Second column-->
+                        <div class="col-md-4">
+                                <h1>Cena:</h1>
+                                <div class="select">
+                                    <select name="slct" id="slct">
+                                      <option>Wybierz miejscowość:</option>
+                                      <option value="1">Pure CSS</option>
+                                      <option value="2">No JS</option>
+                                      <option value="3">Nice!</option>
+                                    </select>
+                                </div>
+
+                                <h1>Ranking obiektu:</h1>
+                                <div class="select">
+                                    <select name="slct" id="slct">
+                                      <option>Wybierz obiekt:</option>
+                                      <option value="1">Pure CSS</option>
+                                      <option value="2">No JS</option>
+                                      <option value="3">Nice!</option>
+                                    </select>
+                                </div>
+                        </div>
+                        <!--/Second column-->
+
+                        <!--Third column-->
+                        <div class="col-md-4">
+                                
+                        </div>
+                        <!--/Third column-->
+                    </div>  
+     
+                    <label for="toggle"></label>
+                        
+                    
+
+                </div>
+            <!--Searcher-->
+
+
+
+
+
+
+                <!--Places-->
+                    <!--Featured cards first row-->
+                    <div class="row">
+
+                        <!--First column-->
+                        <div class="col-md-4">
+                        elo
+                        </div>
+                        <!--/First column-->
+
+                        <!--Second column-->
+                        <div class="col-md-4">
+
+                        </div>
+                        <!--/Second column-->
+
+                        <!--Third column-->
+                        <div class="col-md-4">
+
+                        </div>
+                        <!--/Third column-->
+                    </div>
+                    <!--/Featured cards first row-->
+
+                    <!--Featured cards second row-->
+                    <div class="row">
+
+                        <!--First column-->
+                        <div class="col-md-4">
+
+                        </div>
+                        <!--/First column-->
+
+                        <!--Second column-->
+                        <div class="col-md-4">
+
+                        </div>
+                        <!--/Second column-->
+
+                        <!--Third column-->
+                        <div class="col-md-4">
+
+                        </div>
+                        <!--/Third column-->
+                    </div>
+                    <!--/Featured cards second row-->
+
+                    <!--Featured cards third row-->
+                    <div class="row">
+
+                        <!--First column-->
+                        <div class="col-md-4">
+
+                        </div>
+                        <!--/First column-->
+
+                        <!--Second column-->
+                        <div class="col-md-4">
+
+                        </div>
+                        <!--/Second column-->
+
+                        <!--Third column-->
+                        <div class="col-md-4">
+
+                        </div>
+                        <!--/Third column-->
+                    </div>
+                    <!--/Featured cards  third row-->
+                <!--Places-->
+
+
+                <!--Collections information-->
+                <div class="row">
+                    <!--First column-->
+                    <div class="col-md-3">
+
+                    </div>
+                    <!--/First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-3">
+
+                    </div>
+                    <!--/Second column-->
+
+                    <!--Third column-->
+                    <div class="col-md-3">
+
+                    </div>
+                    <!--/Third column-->
+
+                    <!--Fourth column-->
+                    <div class="col-md-3">
+
+                    </div>
+                    <!--/Fourth column-->
+                </div>
+                <!--/Collections information-->
+
+            </div>
+        </div>
+    </main>
+    <!--/Main layout-->
+
+    <!--Footer-->
+    <footer>
+        
+
+    </footer>
+    <!--/Footer-->    
+
+    <!-- /Start project!-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- SCRIPTS -->
+
+    
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <!-- JQuery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- DatePicker -->
+    <script type="text/javascript" src="js/datepicker/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="js/datepicker/bootstrap-datepicker.pl.min.js"></script>
+    <script type="text/javascript" src="js/datepicker/date_picker.js"></script>
+
+    <script>
+
+
+            $( ".navbar_menu_mobile" ).show();
+            $( ".mobile_button-collapse" ).click(function() {
+            $( ".navbar_menu_mobile" ).slideToggle( "slow", function() {
+            });
+            });
+
+    </script>
+    
+    <!-- /SCRIPTS -->
+  
+  </body>
+</html>

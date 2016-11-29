@@ -1,0 +1,359 @@
+
+            <!--Places-->
+                    <!--Featured cards first row-->
+                    <div class="row">
+
+                        <!--First column-->
+                        <div class="col-md-4">
+    
+                              <div class="post-module">
+                                  <div class="thumbnail">
+                                    <div class="date">
+                                        <div class="day">27</div>
+                                        <div class="month">Marca</div>
+                                    </div>
+                                    <a href="#"><img src="http://osirwolow.pl/wp-content/uploads/2010/03/hala_3.jpg"/></a>
+                                  </div>
+                              
+                                  <div class="post-content">
+                                      <div class="category">Piłka Nożna
+                                          <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\football-1.png" height="30" width="30"></span>
+                                      </div>
+                                      <h1 class="title">Orlik</h1>
+                                      <p class="address">ul.Cieszyńska 5/4</p>
+                                      <p class="city">Warszawa</p>
+                                      <p class="time">Godz.10:00</p>
+                                      <p class="date">27 marca 2016</p>
+                                      <div class="player_number"><p>Liczba graczy:9/10</p></div>
+                                      
+                                      <div class="card_footer">
+                                          <button class="dolacz btn btn-primary">  
+                                              <span>Dołącz <span class="glyphicon glyphicon glyphicon-plus"></span>
+                                          </button>
+                                          <div class="sex"><img src="E:\Z_FRONT_STRONY_KRADZIONE\png\mars.png" height="20" width="20"></div>
+
+
+                                      </div>
+                                        
+                                      
+                                  </div>
+                              </div> 
+                        </div>
+                        <!--/First column-->
+
+                        <!--Second column-->
+                        <div class="col-md-4">
+    
+                              <div class="post-module">
+                                  <div class="thumbnail">
+                                    <div class="date">
+                                        <div class="day">27</div>
+                                        <div class="month">Marca</div>
+                                    </div>
+                                    <a href="#"><img src="http://osirwolow.pl/wp-content/uploads/2010/03/hala_3.jpg"/></a>
+                                  </div>
+                              
+                                  <div class="post-content">
+                                      <div class="category">Piłka Nożna
+                                          <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\football-1.png" height="30" width="30"></span>
+                                      </div>
+                                      <h1 class="title">Orlik</h1>
+                                      <p class="address">ul.Cieszyńska 5/4</p>
+                                      <p class="city">Warszawa</p>
+                                      <p class="time">Godz.10:00</p>
+                                      <p class="date">27 marca 2016</p>
+                                      <div class="player_number"><p>Liczba graczy:9/10</p></div>
+                                      
+                                      <div class="card_footer">
+                                          <button class="dolacz btn btn-primary">  
+                                              <span>Dołącz <span class="glyphicon glyphicon glyphicon-plus"></span>
+                                          </button>
+                                          <div class="sex"><img src="E:\Z_FRONT_STRONY_KRADZIONE\png\mars.png" height="20" width="20"></div>
+
+
+                                      </div>
+                                        
+                                      
+                                  </div>
+                              </div> 
+                        </div>
+                        <!--/Second column-->
+
+                        <!--Third column-->
+                        <div class="col-md-4">
+    
+                              <div class="post-module">
+                                  <div class="thumbnail">
+                                    <div class="date">
+                                        <div class="day">27</div>
+                                        <div class="month">Marca</div>
+                                    </div>
+                                    <a href="#"><img src="http://osirwolow.pl/wp-content/uploads/2010/03/hala_3.jpg"/></a>
+                                  </div>
+                              
+                                  <div class="post-content">
+                                      <div class="category">Piłka Nożna
+                                          <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\football-1.png" height="30" width="30"></span>
+                                      </div>
+                                      <h1 class="title">Orlik</h1>
+                                      <p class="address">ul.Cieszyńska 5/4</p>
+                                      <p class="city">Warszawa</p>
+                                      <p class="time">Godz.10:00</p>
+                                      <p class="date">27 marca 2016</p>
+                                      <div class="player_number"><p>Liczba graczy:9/10</p></div>
+                                      
+                                      <div class="card_footer">
+                                          <button class="dolacz btn btn-primary">  
+                                              <span>Dołącz <span class="glyphicon glyphicon glyphicon-plus"></span>
+                                          </button>
+                                          <div class="sex"><img src="E:\Z_FRONT_STRONY_KRADZIONE\png\mars.png" height="20" width="20"></div>
+
+
+                                      </div>
+                                        
+                                      
+                                  </div>
+                              </div> 
+                        </div>
+                        <!--/Third column-->
+                    </div>
+                    <!--/Featured cards first row-->
+
+                    <!--Featured cards second row-->
+                    <div class="row">
+
+                        <!--First column-->
+                        <div class="col-md-4">
+    
+                              <div class="post-module">
+                                  <div class="thumbnail">
+                                    <div class="date">
+                                        <div class="day">27</div>
+                                        <div class="month">Marca</div>
+                                    </div>
+                                    <a href="#"><img src="http://osirwolow.pl/wp-content/uploads/2010/03/hala_3.jpg"/></a>
+                                  </div>
+                              
+                                  <div class="post-content">
+                                      <div class="category">Piłka Nożna
+                                          <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\football-1.png" height="30" width="30"></span>
+                                      </div>
+                                      <h1 class="title">Orlik</h1>
+                                      <p class="address">ul.Cieszyńska 5/4</p>
+                                      <p class="city">Warszawa</p>
+                                      <p class="time">Godz.10:00</p>
+                                      <p class="date">27 marca 2016</p>
+                                      <div class="player_number"><p>Liczba graczy:9/10</p></div>
+                                      
+                                      <div class="card_footer">
+                                          <button class="dolacz btn btn-primary">  
+                                              <span>Dołącz <span class="glyphicon glyphicon glyphicon-plus"></span>
+                                          </button>
+                                          <div class="sex"><img src="E:\Z_FRONT_STRONY_KRADZIONE\png\mars.png" height="20" width="20"></div>
+
+
+                                      </div>
+                                        
+                                      
+                                  </div>
+                              </div> 
+                        </div>
+                        <!--/First column-->
+
+                        <!--Second column-->
+                        <div class="col-md-4">
+    
+                              <div class="post-module">
+                                  <div class="thumbnail">
+                                    <div class="date">
+                                        <div class="day">27</div>
+                                        <div class="month">Marca</div>
+                                    </div>
+                                    <a href="#"><img src="http://osirwolow.pl/wp-content/uploads/2010/03/hala_3.jpg"/></a>
+                                  </div>
+                              
+                                  <div class="post-content">
+                                      <div class="category">Piłka Nożna
+                                          <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\football-1.png" height="30" width="30"></span>
+                                      </div>
+                                      <h1 class="title">Orlik</h1>
+                                      <p class="address">ul.Cieszyńska 5/4</p>
+                                      <p class="city">Warszawa</p>
+                                      <p class="time">Godz.10:00</p>
+                                      <p class="date">27 marca 2016</p>
+                                      <div class="player_number"><p>Liczba graczy:9/10</p></div>
+                                      
+                                      <div class="card_footer">
+                                          <button class="dolacz btn btn-primary">  
+                                              <span>Dołącz <span class="glyphicon glyphicon glyphicon-plus"></span>
+                                          </button>
+                                          <div class="sex"><img src="E:\Z_FRONT_STRONY_KRADZIONE\png\mars.png" height="20" width="20"></div>
+
+
+                                      </div>
+                                        
+                                      
+                                  </div>
+                              </div> 
+                        </div>
+                        <!--/Second column-->
+
+                        <!--Third column-->
+                        <div class="col-md-4">
+    
+                              <div class="post-module">
+                                  <div class="thumbnail">
+                                    <div class="date">
+                                        <div class="day">27</div>
+                                        <div class="month">Marca</div>
+                                    </div>
+                                    <a href="#"><img src="http://osirwolow.pl/wp-content/uploads/2010/03/hala_3.jpg"/></a>
+                                  </div>
+                              
+                                  <div class="post-content">
+                                      <div class="category">Piłka Nożna
+                                          <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\football-1.png" height="30" width="30"></span>
+                                      </div>
+                                      <h1 class="title">Orlik</h1>
+                                      <p class="address">ul.Cieszyńska 5/4</p>
+                                      <p class="city">Warszawa</p>
+                                      <p class="time">Godz.10:00</p>
+                                      <p class="date">27 marca 2016</p>
+                                      <div class="player_number"><p>Liczba graczy:9/10</p></div>
+                                      
+                                      <div class="card_footer">
+                                          <button class="dolacz btn btn-primary">  
+                                              <span>Dołącz <span class="glyphicon glyphicon glyphicon-plus"></span>
+                                          </button>
+                                          <div class="sex"><img src="E:\Z_FRONT_STRONY_KRADZIONE\png\mars.png" height="20" width="20"></div>
+
+
+                                      </div>
+                                        
+                                      
+                                  </div>
+                              </div> 
+                        </div>
+                        <!--/Third column-->
+                    </div>
+                    <!--/Featured cards second row-->
+
+                    <!--Featured cards third row-->
+                    <div class="row">
+
+                        <!--First column-->
+                        <div class="col-md-4">
+    
+                              <div class="post-module">
+                                  <div class="thumbnail">
+                                    <div class="date">
+                                        <div class="day">27</div>
+                                        <div class="month">Marca</div>
+                                    </div>
+                                    <a href="#"><img src="http://osirwolow.pl/wp-content/uploads/2010/03/hala_3.jpg"/></a>
+                                  </div>
+                              
+                                  <div class="post-content">
+                                      <div class="category">Piłka Nożna
+                                          <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\football-1.png" height="30" width="30"></span>
+                                      </div>
+                                      <h1 class="title">Orlik</h1>
+                                      <p class="address">ul.Cieszyńska 5/4</p>
+                                      <p class="city">Warszawa</p>
+                                      <p class="time">Godz.10:00</p>
+                                      <p class="date">27 marca 2016</p>
+                                      <div class="player_number"><p>Liczba graczy:9/10</p></div>
+                                      
+                                      <div class="card_footer">
+                                          <button class="dolacz btn btn-primary">  
+                                              <span>Dołącz <span class="glyphicon glyphicon glyphicon-plus"></span>
+                                          </button>
+                                          <div class="sex"><img src="E:\Z_FRONT_STRONY_KRADZIONE\png\mars.png" height="20" width="20"></div>
+
+
+                                      </div>
+                                        
+                                      
+                                  </div>
+                              </div> 
+                        </div>
+                        <!--/First column-->
+
+                        <!--Second column-->
+                        <div class="col-md-4">
+    
+                              <div class="post-module">
+                                  <div class="thumbnail">
+                                    <div class="date">
+                                        <div class="day">27</div>
+                                        <div class="month">Marca</div>
+                                    </div>
+                                    <a href="#"><img src="http://osirwolow.pl/wp-content/uploads/2010/03/hala_3.jpg"/></a>
+                                  </div>
+                              
+                                  <div class="post-content">
+                                      <div class="category">Piłka Nożna
+                                          <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\football-1.png" height="30" width="30"></span>
+                                      </div>
+                                      <h1 class="title">Orlik</h1>
+                                      <p class="address">ul.Cieszyńska 5/4</p>
+                                      <p class="city">Warszawa</p>
+                                      <p class="time">Godz.10:00</p>
+                                      <p class="date">27 marca 2016</p>
+                                      <div class="player_number"><p>Liczba graczy:9/10</p></div>
+                                      
+                                      <div class="card_footer">
+                                          <button class="dolacz btn btn-primary">  
+                                              <span>Dołącz <span class="glyphicon glyphicon glyphicon-plus"></span>
+                                          </button>
+                                          <div class="sex"><img src="E:\Z_FRONT_STRONY_KRADZIONE\png\mars.png" height="20" width="20"></div>
+
+
+                                      </div>
+                                        
+                                      
+                                  </div>
+                              </div> 
+                        </div>
+                        <!--/Second column-->
+
+                        <!--Third column-->
+                        <div class="col-md-4">
+    
+                              <div class="post-module">
+                                  <div class="thumbnail">
+                                    <div class="date">
+                                        <div class="day">27</div>
+                                        <div class="month">Marca</div>
+                                    </div>
+                                    <a href="#"><img src="http://osirwolow.pl/wp-content/uploads/2010/03/hala_3.jpg"/></a>
+                                  </div>
+                              
+                                  <div class="post-content">
+                                      <div class="category">Piłka Nożna
+                                          <span><img src="E:\Z_FRONT_STRONY_KRADZIONE\font\124142-sport-elements\png\football-1.png" height="30" width="30"></span>
+                                      </div>
+                                      <h1 class="title">Orlik</h1>
+                                      <p class="address">ul.Cieszyńska 5/4</p>
+                                      <p class="city">Warszawa</p>
+                                      <p class="time">Godz.10:00</p>
+                                      <p class="date">27 marca 2016</p>
+                                      <div class="player_number"><p>Liczba graczy:9/10</p></div>
+                                      
+                                      <div class="card_footer">
+                                          <button class="dolacz btn btn-primary">  
+                                              <span>Dołącz <span class="glyphicon glyphicon glyphicon-plus"></span>
+                                          </button>
+                                          <div class="sex"><img src="E:\Z_FRONT_STRONY_KRADZIONE\png\mars.png" height="20" width="20"></div>
+
+
+                                      </div>
+                                        
+                                      
+                                  </div>
+                              </div> 
+                        </div>
+                        <!--/Third column-->
+                    </div>
+                    <!--/Featured cards  third row-->
+            <!--Places-->

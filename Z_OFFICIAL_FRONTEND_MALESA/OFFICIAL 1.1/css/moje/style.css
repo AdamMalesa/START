@@ -1,0 +1,514 @@
+/* CUSTOM STYLES */
+
+/*MAIN*/
+body {
+	
+	background: #f7f7f7;
+  /*background: url('http://www.peakflooring.uk/wp-content/uploads/2015/03/sports-floor.jpg') no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*STOPKA##################################*/
+.menutop{
+  background: repeating-linear-gradient(
+    to right,
+    #5d9634,
+    #5d9634 40px,
+    #538c2b 40px,
+    #538c2b 80px
+
+  );
+}
+.button-collapse i{
+    
+    color: #f1b91e;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.logo_nahali {
+    padding-left: 20px;
+    padding-top:5px;
+    text-align: left;
+}
+
+
+/*Profile button*/
+.botton-profile .animate
+{
+	transition: all 0.1s;
+}
+
+.botton-profile .action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 20px;
+  float: right;
+	border-radius: 0.50em;
+	font-family: 'Lobster', cursive;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+
+.botton-profile .shadow-button
+{
+	background-color: #f1b91e;
+	border-bottom: 5px solid #f2c81e;
+}
+
+.botton-profile .action-button:active
+{
+	transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+/*Navbar menu*/
+
+.navbar_menu,.navbar_menu_mobile {
+	font-size: 20px;
+	font-family: 'Lobster', cursive;
+  box-shadow: 0 0 5px black;
+  text-decoration: none;
+  }	
+	
+.navbar_menu,.navbar_menu_mobile ul {
+  border-radius: 0.50em;   
+  background: white;
+  list-style:none;
+  text-align: center;
+  text-decoration: none;
+  }
+
+.navbar_menu li { 
+  position:relative; 
+  display:inline-block; 
+  border-bottom: none;
+  border-radius: 0.50em 0.50em 0 0;
+  }
+
+.navbar_menu li:hover { box-shadow: 0 -5px 0 #f1b91e; }
+
+.navbar_menu a { 
+  color:#f1b91e;
+  display:block;
+  padding: 10px 50px 10px 50px;  
+  text-decoration: none;
+  }
+
+.navbar_menu a:active{
+  text-decoration: none;
+}
+
+.navbar_menu a:hover {
+  border-radius: 0 0 0.50em 0.50em;
+  background: #f1b91e;
+  box-shadow: 0 5px 0 #f1b91e;
+  color:white;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+  text-decoration: none;
+  }
+
+/*Navbar menu mobile*/
+.navbar_menu_mobile li{
+  text-decoration: none;
+  position:relative; 
+  display:inline-block; 
+  border-bottom: none;
+  border-radius: 0.50em 0.50em 0 0;
+}
+
+.navbar_menu_mobile li:hover { box-shadow: 0 -5px 0 #f1b91e; }
+
+.navbar_menu_mobile a { 
+  color:#f1b91e;
+  display:block;
+  padding: 10px 50px 10px 50px;  
+  text-decoration: none;
+  text-align: center;
+  }
+
+.navbar_menu_mobile a:active{
+  text-decoration: none;
+}
+
+.navbar_menu_mobile a:hover {
+  border-radius: 0 0 0.50em 0.50em;
+  background: #f1b91e;
+  box-shadow: 0 5px 0 #f1b91e;
+  color:white;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+  text-decoration: none;
+  }
+
+/*Highlight Home button
+-----------------------------------------------*/
+/*
+.home { box-shadow: 0 -5px 0 #f1b91e; }
+.home a {
+	background: #f1b91e;
+	box-shadow: 0 5px 0 #f1b91e;
+	color:white;
+	border-radius: 0 0 .25em .25em;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+  }
+*/
+
+/*KARUZELA##################################*/
+
+.carousel_container {
+  font-family: 'Lobster', cursive;
+  color: #f1b91e;
+}
+
+.carousel_container p{
+  font-family: 'Lobster', cursive;
+  color: #f1b91e;
+  font-size:20px;
+}
+
+.item img{
+  max-height: 445px;
+  width: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*WYSZUKIWARKA##################################*/
+.searcher p {
+		font-family: 'Lobster', cursive;
+		font-size: 20px;
+		margin-top: 10px;
+}
+
+.down-searcher p{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.searcher{
+	background: white;
+	margin-top: 10px;
+	text-align: left;
+
+  box-shadow:70px 70px 0 -60px #f1b91e, 70px -70px 0 -60px #f1b91e,-70px 70px
+   0 -60px #f1b91e, -70px -70px 0 -60px #f1b91e, inset 0 0 0 10px  white;
+   border-radius:10px
+}
+
+/*BUTTONY_WYSZUKIWARKI*/
+.more-info span{
+  margin-left: 3px;
+}
+
+
+/*RADIO BUTTONS*/
+
+.sport_radios label {
+  cursor: pointer;
+  position: relative;
+  margin:10px;
+}
+
+.sport_radios label + label {
+  margin-left: 1px;
+}
+
+input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+}
+
+input[type="checkbox"] + span {
+  border-radius: 30%;
+  padding: 20px;
+  transition: all 0.4s;
+  display:block;
+}
+
+input[type="checkbox"]:checked + span {
+  color: #D9E7FD;
+  background-color: #F4C442;
+}
+
+input[type="checkbox"]:focus + span {
+  color: #fff;
+}
+
+/* ================ TOOLTIPS ================= */
+
+.sport_radios label:hover::before {
+  content: attr(for);
+  font-family: Roboto, -apple-system, sans-serif;
+  text-transform: capitalize;
+  font-size: 12px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  opacity: 0.75;
+  background-color: #323232;
+  color: #fff;  
+  padding: 2px;
+  border-radius: 3px;
+  text-align: center;
+    display: inline;
+}
+
+.sport_radios {
+/*  text-align: center;*/
+  /*margin: 0 auto;
+*/  margin: 5px 5px 5px 5px;
+
+}
+
+
+/*MIEJSCOWOSC/OBIEKT/LISTA*/
+
+select {
+  width: 100%;
+  height: 100%;
+  margin: 10;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+
+
+.select {
+  position: relative;
+  display: block;
+  width: 15em;
+  height: 3em;
+  line-height: 3;
+  background: green;
+  overflow: hidden;
+  border-radius: 0.50em; 
+
+}
+
+.select select {
+  appearance: none;
+  box-shadow: none;
+  background: #337ab7;
+  background-image: none;
+  font-family: 'Lobster', cursive;
+
+}
+
+/* Kwadrat */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em;
+  background: #f1b91e;
+  pointer-events: none;
+}
+/* Trojkat */
+.select:hover::after {
+  color: #fff;
+}
+.select::after {
+  transition: 2s all ease;
+}
+
+
+
+/*Select kalendarz*/
+.kalendarz_okres {
+  width: 7em;
+ /* height: 3em;*/
+
+}
+
+.kalendarz_okres input{
+  background: #337ab7;
+  color: #fff;
+  cursor: pointer;
+  height: 3em;
+  width: 9em;
+  border-radius: 0.50em; 
+/*  overflow: hidden;
+    white-space: nowrap;*/
+}
+
+.kalendarz_okres span{
+  background: #f1b91e;
+}
+
+.godzina_left,.godzina_right {
+  width: 12em;
+  height: 3em;
+}
+
+.szukaj-info
+{
+  float:right;
+}
+
+.more-info
+{
+  float:left;
+}
+
+
+/*CARDS##########################*/
+.post-module {
+  position: relative;
+  margin: 30px 30px 30px 30px;
+  z-index: 1;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+  transition: all 0.3s linear 0s;
+}
+.post-module:hover,
+.hover {
+  box-shadow: 1px 1px 35px 1px rgba(0, 0, 0, 0.3);
+}
+
+.post-module .thumbnail .date {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  background: #f1b91e;
+  width: 70px;
+  height: 70px;
+  padding: 12.5px ;
+  border-radius: 100%;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+/*  box-sizing: border-box;*/
+}
+
+.post-module .thumbnail{
+ margin-bottom:0;
+}
+.post-module .thumbnail .date .day {
+  font-size: 18px;
+}
+.post-module .thumbnail .date .month {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.post-module .thumbnail img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s linear 0s;
+}
+.post-module .post-content .category {
+  position: relative;
+  background: #f1b91e;
+  padding: 15px 15px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.post-module .post-content .category span{
+  position: absolute; top:10px ;right:5px;
+}
+
+.post-module .post-content .title {
+  margin: 1px;
+  padding: 10px 10px 10px;
+  color: #333333;
+  font-size: 26px;
+  font-weight: 700;
+}
+.post-module .post-content .address, .city ,.time, .date ,.player_number{
+  margin: 3px;
+  padding: 0 0 2px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card_footer{
+  position:relative;
+}
+.post-module .post-content .sex {
+ float:right;
+ margin:10px;
+}
+
+.page-footer{
+  background-color: #f1b91e;
+  padding:25px;
+}
+
+
+
+
+
+/*Zaloguj na stronie glownej*/
+#login{
+  z-index: 1;
+  width:300px;
+  margin-top:80px;
+  transition:opacity 1s;
+  display: none;
+  position:absolute;
+}
+
+#triangle{
+  width:0;
+  border-top:12x solid transparent;
+  border-right:12px solid transparent;
+  border-bottom:12px solid #f1b91e;
+  border-left:12px solid transparent;
+  margin:0 auto;
+}
+
+form{
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+input[type="email"],input[type="password"]{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+
+input[type="submit"]{
+  width:100%;
+  background:#f1b91e;
+  border:0;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+input[type="submit"]:hover{
+  background:#f1b91e;
+}
